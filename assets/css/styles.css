@@ -9,7 +9,7 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #5361FF;
+    --first-color: #a8c3ccdb;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -110,6 +110,7 @@ img{
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
+    
 }
 .l-header{
     width: 100%;
@@ -126,6 +127,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 @media screen and (max-width: 768px){
     .nav__menu{
@@ -152,6 +154,7 @@ img{
 }
 .nav__logo{
     color: var(--white-color);
+    font-size: 30px;
 }
 .nav__toggle{
     color: var(--white-color);
@@ -178,7 +181,7 @@ img{
 /*===== HOME =====*/
 .home{
     position: relative;
-    background-color: var(--first-color);
+    background: url(../img/photo_2024-01-09_01-05-32.jpg) center/cover no-repeat ;
     overflow: hidden;
 }
 .home__container{
@@ -189,7 +192,10 @@ img{
     align-self: flex-end;
     font-size: var(--big-font-size);
     color: var(--white-color);
-    line-height: .8;
+    line-height: .9;
+   
+   
+    
 }
 .home__title span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
@@ -274,9 +280,9 @@ img{
     border-radius: .5rem;
 }
 
-/* ===== PORTFOLIO =====*/
+/* ===== PORTFOLIO  #e7dccca6=====*/
 .portfolio{
-    background-color: var(--white-color);
+    background-color: #a8c3cc22;
 }
 .portfolio__container{
     justify-items: center;
